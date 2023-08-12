@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="08/11/2023 22:12:55" ReportInfo.Modified="08/11/2023 22:33:34" ReportInfo.CreatorVersion="2023.2.0.0">
+  <Dictionary>
+    <Parameter Name="nome" DataType="System.String" AsString=""/>
+    <Parameter Name="email" DataType="System.String" AsString=""/>
+    <Parameter Name="mensagem" DataType="System.String" AsString=""/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Left="189" Top="9.45" Width="311.85" Height="18.9" Text="Meu Primeiro Relatório" HorzAlign="Center" Font="Arial, 14pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35"/>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="94.5">
+      <TextObject Name="Text2" Left="141.75" Top="9.45" Width="94.5" Height="18.9" Text="Nome:" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="141.75" Top="37.8" Width="94.5" Height="18.9" Text="E-mail:" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="245.7" Top="9.45" Width="359.1" Height="18.9" Text="[nome]" Font="Arial, 10pt"/>
+      <TextObject Name="Text6" Left="245.7" Top="37.8" Width="359.1" Height="18.9" Text="[email]" Font="Arial, 10pt"/>
+      <TextObject Name="Text9" Left="141.75" Top="66.15" Width="94.5" Height="18.9" Text="Mensagem:" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text10" Left="245.7" Top="66.15" Width="359.1" Height="18.9" Text="[mensagem]" Font="Arial, 10pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="172.65" Width="718.2" Height="28.35">
+      <TextObject Name="Text7" Left="56.7" Top="7.45" Width="94.5" Height="18.9" Text="[Date]" Font="Arial, 10pt"/>
+      <TextObject Name="Text8" Left="633.15" Top="6" Width="94.5" Height="18.9" Text="[Page#]" Font="Arial, 10pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
